@@ -10,34 +10,16 @@
 pip install streamlit pandas numpy scikit-learn matplotlib
 
 # 2. Lancer l'application
-streamlit run app.py
+streamlit run KAMLA_FOTSO_MALCOM_21T2898.py
 
 # 3. Ouvrir http://localhost:8501
-```
-
----
-
-## 🌐 Déployer sur Streamlit Cloud (gratuit)
-
-1. **Créer un compte** sur [share.streamlit.io](https://share.streamlit.io)
-2. **Pousser le projet sur GitHub** :
-   ```bash
-   git init
-   git add .
-   git commit -m "AgricolApp INF232"
-   git remote add origin https://github.com/TON_USERNAME/agricolapp.git
-   git push -u origin main
-   ```
-3. Sur Streamlit Cloud → **New app** → choisir le dépôt → `app.py`
-4. Cliquer **Deploy** → lien public en 2 minutes ✓
-
 ---
 
 ## 📁 Structure
 
 ```
 agricolapp_streamlit/
-├── app.py            ← Application principale Streamlit
+├── KAMLA_FOTSO_MALCOM_21T2898.py            ← Application principale Streamlit
 ├── requirements.txt  ← Dépendances Python
 └── README.md
 ```
